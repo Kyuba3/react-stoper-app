@@ -1,5 +1,11 @@
 @import '../../styles/settings.scss';
 
 .container{
-    color: red;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
 }

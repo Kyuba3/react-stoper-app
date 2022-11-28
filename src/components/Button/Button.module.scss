@@ -1,1 +1,16 @@
 @import '../../styles/settings.scss';
+
+.button { 
+    display: inline-flex;
+    background-color: $color-button;
+    color: $color-light;
+    justify-content: center;
+    padding: 12px;
+    margin: 0 12px;
+    border-radius: 5px;
+    border: none;
+}
+
+.button:hover {
+    background: darken($color-button, 5%);
+}

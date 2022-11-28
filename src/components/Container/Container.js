@@ -11,8 +11,19 @@ const Container = () => {
 
    // interval fuc=nction
     useEffect(() => {
+        let interval = null;
 
-    }, []);
+        if(start && stop === false){
+            interval = setInterval(() => {
+                setReset((reset) => reset + 10);
+            }, 10);
+        } else {
+            clearInterval(interval);
+        }
+        return () => {
+            clearInterval(interval);
+        };
+    }, [start, stop]);
 
     const starting = () => {
         setStart(true);

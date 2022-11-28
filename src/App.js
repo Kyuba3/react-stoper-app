@@ -1,6 +1,8 @@
+import Container from "./components/Container/Container";
+
 function App() {
   return (
-    <h1>Hello</h1>
+    <Container />
   );
 }
 

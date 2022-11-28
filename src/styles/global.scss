@@ -1,0 +1,9 @@
+@import './settings.scss';
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: $color-body;
+    color: $color-light;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

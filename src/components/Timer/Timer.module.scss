@@ -1,5 +1,9 @@
 @import '../../styles/settings.scss';
 
-h1 {
-  color: green;    
+.timer {
+  color: $color-light; 
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  font-size: 80px;
 }
